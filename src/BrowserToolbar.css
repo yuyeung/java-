@@ -1,0 +1,32 @@
+
+.browser {
+    -fx-background-color: #FFFFFF;
+}
+
+.browser-toolbar .hyperlink, .browser-toolbar .button, .browser-toolbar, .download-toolbar {
+    -fx-text-fill: black;
+}
+
+.browser-toolbar, .download-toolbar {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #C4C4C4;
+    -fx-base: #F8F8FF;
+    -fx-background: #F8F8FF;
+    -fx-shadow-highlight-color: transparent;
+    -fx-spacing: 5;
+    -fx-padding: 4 4 4 4;
+}
+
+.label {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #C4C4C4;
+}
+
+.download-win {
+    -fx-background-color: #FFFFFF;
+}
+
+.message {
+    -fx-text-fill: #FF4040;
+    -fx-font-weight: bold;
+}
